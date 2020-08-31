@@ -8,6 +8,7 @@ declare module '@react-native-community/cookies' {
     expires?: string;
     secure?: boolean;
     httpOnly?: boolean;
+    sameSite?: boolean | 'none' | 'lax' | 'strict';
   }
 
   export interface Cookies {
